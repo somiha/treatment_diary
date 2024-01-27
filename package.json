@@ -1,0 +1,19 @@
+{
+  "name": "treatment_diary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./public/assets/css/input.css -o ./public/assets/css/output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.6.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "color": "^4.2.3"
+  }
+}
